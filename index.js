@@ -25,3 +25,22 @@ Se XP for maior ou igual a 10.001 = Radiante
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel} */
+
+
+var nome = "Guerreiro";
+var xp;
+var ferro = 1000;
+var bronze = 2000;
+var prata = 5000;
+var ouro = 7000;
+var platina = 8000;
+var ascendente = 9000;
+var imortal = 10000;
+var radiante = 10001;
+
+if (xp <= 1000) {
+	console.log(ferro);    
+} if else (xp <= 2000) {
+	console.log("O Herói de nome: " + nome + "está no nível " + xp);
+}
+
